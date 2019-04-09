@@ -31,7 +31,7 @@ const Contact = props => (
           <Call button={false} />
         </div>
         <div className="col-8">
-          <h4 className="mt-4">Horas de Atencíon</h4>
+          <h4 className="mt-4">Horas de Atención</h4>
           <table className="table table-sm opening-hours-table">
             <tbody>
               <tr>
@@ -66,13 +66,14 @@ const Contact = props => (
               </tr>
               <tr>
                 <td className="day font-weight-bold">Sabado</td>
-                <td className="opens">Closed</td>
-                <td />
+                <td className="opens">8:30am</td>
+                <td>-</td>
+                <td className="opens">13:30pm</td>
                 <td className="closes" />
               </tr>
               <tr>
                 <td className="day font-weight-bold">Domingo</td>
-                <td className="opens">Closed</td>
+                <td className="opens">Cerrado</td>
                 <td />
                 <td className="closes" />
               </tr>
